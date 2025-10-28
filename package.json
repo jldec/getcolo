@@ -1,12 +1,20 @@
 {
-	"name": "getcolo",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"dev": "wrangler dev",
-		"ship": "wrangler deploy"
-	},
-	"devDependencies": {
-		"wrangler": "^4.45.1"
-	}
+  "name": "getcolo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "ship": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "useTabs": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "semi": false
+  }
 }

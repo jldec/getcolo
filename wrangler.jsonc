@@ -1,9 +1,9 @@
 {
-	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "getcolo",
-	"main": "src/index.js",
-	"compatibility_date": "2025-10-24",
-	"observability": {
-		"enabled": true
-	}
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "getcolo",
+  "main": "src/index.js",
+  "compatibility_date": "2025-10-24",
+  "observability": {
+    "enabled": true
+  }
 }
