@@ -4,7 +4,8 @@ export default {
       colo: request.cf.colo,
       city: request.cf.city,
       region: request.cf.region,
-      country: request.cf.country
+      country: request.cf.country,
+      continent: request.cf.continent
     })
   }
 }
